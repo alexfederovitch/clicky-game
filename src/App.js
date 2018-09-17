@@ -47,7 +47,7 @@ clickCount = id => {
   render() {
     return (
       <Wrapper>
-        <Title message={this.state.message} score={this.state.score} highscore={this.state.highscore}>Clicky Game</Title>
+        <Title message={this.state.message} score={this.state.score} highscore={this.state.highscore}>`Clicky Game - Pick a card, but don't pick the same card twice`</Title>
         {this.state.sponge.map(sponge => (
          <Card
           clickCount={this.clickCount}
